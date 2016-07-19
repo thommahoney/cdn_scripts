@@ -31,7 +31,7 @@ function getStatsJSON($service_id) {
 
     $opts = array(
         'http' => array('method' => 'GET',
-                        'header' => "X-Fastly-Key: " . FASTLY_KEY . "\r\n"
+                        'header' => "Fastly-Key: " . FASTLY_KEY . "\r\n"
                     )
                 );
 
